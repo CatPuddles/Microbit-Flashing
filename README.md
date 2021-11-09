@@ -1,1 +1,11 @@
 # Microbit-Flashing
+
+def on_forever():
+    basic.show_icon(IconNames.Heart)
+    basic.clear_screen()
+    basic.pause(500)
+    basic.show_icon(IconNames.SMALL_HEART)
+    basic.clear_screen()
+    basic.pause(500)
+    basic.show_icon(IconNames.HEART)
+basic.forever(on_forever)
